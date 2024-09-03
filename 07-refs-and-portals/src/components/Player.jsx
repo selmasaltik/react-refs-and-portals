@@ -7,6 +7,7 @@ export default function Player() {
 
   function handleClick() {
     setEnteredPlayerName(playerName.current.value);
+    playerName.current.value = ''; // NOTE: imperative code not declarative for dom manipulation but it's make your life easier for saving code.
   }
 
   return (
