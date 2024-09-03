@@ -1,6 +1,6 @@
 ***Refs & Portals***
 
-Advanced DOM Access & Value Management
+**Advanced DOM Access & Value Management**
 
 - Accessing **DOM Elements** with **Refs**
 - **Managing Values** with Refs
