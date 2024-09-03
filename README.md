@@ -6,3 +6,6 @@ Advanced DOM Access & Value Management
 - **Managing Values** with Refs
 - **Exposing API Functions** from Components
 - **Detaching DOM Rendering** from JSX Structure with **Portals**
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+
