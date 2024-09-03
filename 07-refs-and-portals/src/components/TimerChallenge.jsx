@@ -1,13 +1,15 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
+
+//let timer; NOTE: variable definition is not a solution this case. we'll use refs.
 
 export default function TimerChallenge({title, targetTime}) {
+    const timer = useRef();
+
     const [timerStarted, setTimerStarted] = useState(false);
     const [timerExpired, setTimerExpired] = useState(false);
 
-    let timer;
-
     function handleStart() {
-        timer = setTimeout(() => {
+        timer.current = setTimeout(() => {
             setTimerExpired(true);
         }, targetTime * 1000);
 
@@ -15,7 +17,7 @@ export default function TimerChallenge({title, targetTime}) {
     }
 
     function handleStop() {
-        clearTimeout(timer);
+        clearTimeout(timer.current);
     }
 
     return (
