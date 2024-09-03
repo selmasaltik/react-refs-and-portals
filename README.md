@@ -7,7 +7,8 @@
 - **Exposing API Functions** from Components
 - **Detaching DOM Rendering** from JSX Structure with **Portals**
 
-(https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+(https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
 
 ***State vs Refs***
 
